@@ -2,7 +2,7 @@
 
 ## Simple PDO class
 
-## SELECT
+## Select
 ```
 $q = query("SELECT * FROM table");
 
@@ -26,7 +26,7 @@ or
 query("INSERT INTO table () VALUES()");
 ```
 
-##UPDATE
+##Update
 ```
 //update data
 query("UPDATE table SET Name="Elsa" WHERE id=4");
@@ -34,7 +34,7 @@ query("UPDATE table SET Name="Elsa" WHERE id=4");
 //update('mytable', $data, $value);
 ```
 
-## DELETE
+## Delete
 ```
 query("UPDATE table SET Name='Elisa' WHERE id=1");
 delete('table', 'field', 4);
