@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set('GMT');
+date_default_timezone_set('Asia/Jakarta');
 
 define('HS', 'localhost'); //host
 define('DB', 'test'); //database name
