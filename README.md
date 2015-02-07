@@ -36,6 +36,6 @@ query("UPDATE table SET Name="Elsa" WHERE id=4");
 
 ## Delete
 ```
-query("DELETE FROM table WHERE column=value;");
+query("DELETE FROM table WHERE column=value");
 delete('table', 'field', 4);
 ```
